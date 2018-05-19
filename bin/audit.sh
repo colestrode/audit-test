@@ -8,6 +8,6 @@ if [[ $BRANCH = 'master' ]] || [[ $BRANCH = 'develop' ]] ; then
 fi
 
 npm audit fix
-git add `package*.json` npm-shrinkwrap.json
+git add package.json package-lock.json
 git commit -m "$MESSAGE"
 
