@@ -38,5 +38,6 @@
       "npm run lint",
       "git add"
     ]
-  }
+  },
+  "audit": {}
 }
